@@ -1,669 +1,669 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.0.6" apprev="20004" start="node17">
+<tour apprev="20004" start="node17" appversion="7.0.6">
   <panorama id="node17">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-3.09209" projection="4" pan="0.751171" fov="161.777"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-3.09209" pan="0.751171" fov="161.777" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node17" info="" comment="84RP1" datetime="" title="현관" copyright="" tags="84RP1-기본-현관-20231002-141235|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-17.77" url="{node11}" id="Point01" target="" title="욕실1" skinid="ht_node" pan="-328.37"/>
-      <hotspot description="" tilt="6.44" url="{node16}" id="Point02" target="" title="침실3" skinid="ht_node" pan="-358.59"/>
-      <hotspot description="" tilt="-21.87" url="{node4}" id="Point03" target="" title="복도" skinid="ht_node" pan="-30.08"/>
+    <userdata description="1층" nodeid="node17" author="" info="" datetime="" title="현관" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-현관-20231002-141235|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-17.77" url="{node11}" skinid="ht_node" target="" pan="-328.37" title="욕실1" id="Point01"/>
+      <hotspot description="" tilt="6.44" url="{node16}" skinid="ht_node" target="" pan="-358.59" title="침실3" id="Point02"/>
+      <hotspot description="" tilt="-21.87" url="{node4}" skinid="ht_node" target="" pan="-30.08" title="복도" id="Point03"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node1">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="1.02228" projection="4" pan="-3.30574" fov="136.926"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="1.02228" pan="-3.30574" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node1" info="" comment="84RP1" datetime="" title="거실" copyright="" tags="84RP1-기본-거실1-20231002-141443|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-6.67" url="{node2}" id="Point01" target="" title="거실" skinid="ht_node" pan="-36.84"/>
-      <hotspot description="" tilt="-15.47" url="{node5}" id="Point02" target="" title="복도" skinid="ht_node" pan="-321.78"/>
-      <hotspot description="" tilt="-8.39" url="{node14}" id="Point03" target="" title="주방" skinid="ht_node" pan="-253.08"/>
-      <hotspot description="" tilt="-2.7" url="{node13}" id="Point04" target="" title="주방" skinid="ht_node" pan="-293.68"/>
-      <hotspot description="" tilt="-11.73" url="{node6}" id="Point05" target="" title="복도" skinid="ht_node" pan="-227.82"/>
+    <userdata description="1층" nodeid="node1" author="" info="" datetime="" title="거실" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-거실1-20231002-141443|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-6.67" url="{node2}" skinid="ht_node" target="" pan="-36.84" title="거실" id="Point01"/>
+      <hotspot description="" tilt="-15.47" url="{node5}" skinid="ht_node" target="" pan="-321.78" title="복도" id="Point02"/>
+      <hotspot description="" tilt="-8.39" url="{node14}" skinid="ht_node" target="" pan="-253.08" title="주방" id="Point03"/>
+      <hotspot description="" tilt="-2.7" url="{node13}" skinid="ht_node" target="" pan="-293.68" title="주방" id="Point04"/>
+      <hotspot description="" tilt="-11.73" url="{node6}" skinid="ht_node" target="" pan="-227.82" title="복도" id="Point05"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node2">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-1.77522" projection="4" pan="-8.1978" fov="136.926"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-1.77522" pan="-8.1978" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node2" info="" comment="84RP1" datetime="" title="거실" copyright="" tags="84RP1-기본-거실2-20231002-141447|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-9.72" url="{node1}" id="Point01" target="" title="거실" skinid="ht_node" pan="-337.89"/>
-      <hotspot description="" tilt="-1.09" url="{node13}" id="Point02" target="" title="주방" skinid="ht_node" pan="-52.67"/>
-      <hotspot description="" tilt="-8.98" url="{node14}" id="Point03" target="" title="주방" skinid="ht_node" pan="-17.71"/>
-      <hotspot description="" tilt="-2.48" url="{node6}" id="Point04" target="" title="복도" skinid="ht_node" pan="-359.4"/>
-      <hotspot description="" tilt="-6.67" url="{node5}" id="Point05" target="" title="복도" skinid="ht_node" pan="-62.47"/>
+    <userdata description="1층" nodeid="node2" author="" info="" datetime="" title="거실" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-거실2-20231002-141447|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-9.72" url="{node1}" skinid="ht_node" target="" pan="-337.89" title="거실" id="Point01"/>
+      <hotspot description="" tilt="-1.09" url="{node13}" skinid="ht_node" target="" pan="-52.67" title="주방" id="Point02"/>
+      <hotspot description="" tilt="-8.98" url="{node14}" skinid="ht_node" target="" pan="-17.71" title="주방" id="Point03"/>
+      <hotspot description="" tilt="-2.48" url="{node6}" skinid="ht_node" target="" pan="-359.4" title="복도" id="Point04"/>
+      <hotspot description="" tilt="-6.67" url="{node5}" skinid="ht_node" target="" pan="-62.47" title="복도" id="Point05"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node11">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-2.48405" projection="4" pan="-1.21753" fov="136.926"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-2.48405" pan="-1.21753" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node11" info="" comment="84RP1" datetime="" title="욕실1" copyright="" tags="84RP1-기본-욕실1-20231002-141148|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-9.72" url="{node16}" id="Point01" target="" title="침실3" skinid="ht_node" pan="-139.82"/>
-      <hotspot description="" tilt="-22.95" url="{node4}" id="Point02" target="" title="복도" skinid="ht_node" pan="-164.9"/>
-      <hotspot description="" tilt="-40.23" url="{node17}" id="Point03" target="" title="현관" skinid="ht_node" pan="-167.73"/>
+    <userdata description="1층" nodeid="node11" author="" info="" datetime="" title="욕실1" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-욕실1-20231002-141148|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-9.72" url="{node16}" skinid="ht_node" target="" pan="-139.82" title="침실3" id="Point01"/>
+      <hotspot description="" tilt="-22.95" url="{node4}" skinid="ht_node" target="" pan="-164.9" title="복도" id="Point02"/>
+      <hotspot description="" tilt="-40.23" url="{node17}" skinid="ht_node" target="" pan="-167.73" title="현관" id="Point03"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node13">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-0.45695" projection="4" pan="1.45603" fov="126.58"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-0.45695" pan="1.45603" fov="126.58" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node13" info="" comment="84RP1" datetime="" title="주방" copyright="" tags="84RP1-기본-주방1-20231002-141427|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-5.68" url="{node14}" id="Point01" target="" title="주방" skinid="ht_node" pan="-11.43"/>
-      <hotspot description="" tilt="-4.76" url="{node1}" id="Point02" target="" title="거실" skinid="ht_node" pan="-345.84"/>
-      <hotspot description="" tilt="-2.41" url="{node2}" id="Point03" target="" title="거실" skinid="ht_node" pan="-311.41"/>
-      <hotspot description="" tilt="-0.04" url="{node15}" id="Point04" target="" title="침실2" skinid="ht_node" pan="-300.8"/>
-      <hotspot description="" tilt="-18.77" url="{node5}" id="Point05" target="" title="복도" skinid="ht_node" pan="-304.5"/>
+    <userdata description="1층" nodeid="node13" author="" info="" datetime="" title="주방" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-주방1-20231002-141427|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-5.68" url="{node14}" skinid="ht_node" target="" pan="-11.43" title="주방" id="Point01"/>
+      <hotspot description="" tilt="-4.76" url="{node1}" skinid="ht_node" target="" pan="-345.84" title="거실" id="Point02"/>
+      <hotspot description="" tilt="-2.41" url="{node2}" skinid="ht_node" target="" pan="-311.41" title="거실" id="Point03"/>
+      <hotspot description="" tilt="-0.04" url="{node15}" skinid="ht_node" target="" pan="-300.8" title="침실2" id="Point04"/>
+      <hotspot description="" tilt="-18.77" url="{node5}" skinid="ht_node" target="" pan="-304.5" title="복도" id="Point05"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node14">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-4.04688" projection="4" pan="-20.4505" fov="136.926"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-4.04688" pan="-20.4505" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node14" info="" comment="84RP1" datetime="" title="주방" copyright="" tags="84RP1-기본-주방2-20231002-141428|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-4.63" url="{node2}" id="Point01" target="" title="거실" skinid="ht_node" pan="-58.34"/>
-      <hotspot description="" tilt="-13.29" url="{node5}" id="Point02" target="" title="복도" skinid="ht_node" pan="-15.82"/>
-      <hotspot description="" tilt="1.67" url="{node15}" id="Point03" target="" title="침실2" skinid="ht_node" pan="-24.17"/>
-      <hotspot description="" tilt="-1.9" url="{node13}" id="Point04" target="" title="주방" skinid="ht_node" pan="-324.2"/>
-      <hotspot description="" tilt="-7.48" url="{node1}" id="Point05" target="" title="거실" skinid="ht_node" pan="-100.7"/>
-      <hotspot description="" tilt="-16.56" url="{node6}" id="Point06" target="" title="복도" skinid="ht_node" pan="-128.62"/>
+    <userdata description="1층" nodeid="node14" author="" info="" datetime="" title="주방" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-주방2-20231002-141428|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-4.63" url="{node2}" skinid="ht_node" target="" pan="-58.34" title="거실" id="Point01"/>
+      <hotspot description="" tilt="-13.29" url="{node5}" skinid="ht_node" target="" pan="-15.82" title="복도" id="Point02"/>
+      <hotspot description="" tilt="1.67" url="{node15}" skinid="ht_node" target="" pan="-24.17" title="침실2" id="Point03"/>
+      <hotspot description="" tilt="-1.9" url="{node13}" skinid="ht_node" target="" pan="-324.2" title="주방" id="Point04"/>
+      <hotspot description="" tilt="-7.48" url="{node1}" skinid="ht_node" target="" pan="-100.7" title="거실" id="Point05"/>
+      <hotspot description="" tilt="-16.56" url="{node6}" skinid="ht_node" target="" pan="-128.62" title="복도" id="Point06"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node4">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-1.21946" projection="4" pan="-1.51539" fov="136.926"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-1.21946" pan="-1.51539" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node4" info="" comment="84RP1" datetime="" title="복도" copyright="" tags="84RP1-기본-복도-20231002-141146|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-7.64" url="{node11}" id="Point01" target="" title="욕실1" skinid="ht_node" pan="-183.38"/>
-      <hotspot description="" tilt="-4.99" url="{node16}" id="Point02" target="" title="침실3" skinid="ht_node" pan="-234.76"/>
-      <hotspot description="" tilt="-8.74" url="{node17}" id="Point03" target="" title="현관" skinid="ht_node" pan="-105.55"/>
-      <hotspot description="" tilt="-2.98" url="{node15}" id="Point04" target="" title="침실2" skinid="ht_node" pan="-343.48"/>
-      <hotspot description="" tilt="-17.57" url="{node5}" id="Point05" target="" title="복도" skinid="ht_node" pan="0.56"/>
+    <userdata description="1층" nodeid="node4" author="" info="" datetime="" title="복도" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-복도-20231002-141146|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-7.64" url="{node11}" skinid="ht_node" target="" pan="-183.38" title="욕실1" id="Point01"/>
+      <hotspot description="" tilt="-4.99" url="{node16}" skinid="ht_node" target="" pan="-234.76" title="침실3" id="Point02"/>
+      <hotspot description="" tilt="-8.74" url="{node17}" skinid="ht_node" target="" pan="-105.55" title="현관" id="Point03"/>
+      <hotspot description="" tilt="-2.98" url="{node15}" skinid="ht_node" target="" pan="-343.48" title="침실2" id="Point04"/>
+      <hotspot description="" tilt="-17.57" url="{node5}" skinid="ht_node" target="" pan="0.56" title="복도" id="Point05"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node5">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-1.31474" projection="4" pan="-0.35962" fov="136.926"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-1.31474" pan="-0.35962" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node5" info="" comment="84RP1" datetime="" title="복도" copyright="" tags="84RP1-기본-복도2-20231002-141425|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-3.16" url="{node15}" id="Point01" target="" title="침실2" skinid="ht_node" pan="-220.38"/>
-      <hotspot description="" tilt="-30.55" url="{node4}" id="Point02" target="" title="복도" skinid="ht_node" pan="-181.6"/>
-      <hotspot description="" tilt="-7.89" url="{node17}" id="Point03" target="" title="현관" skinid="ht_node" pan="-169.89"/>
-      <hotspot description="" tilt="4.78" url="{node11}" id="Point04" target="" title="욕실1" skinid="ht_node" pan="-180.32"/>
-      <hotspot description="" tilt="-8.82" url="{node16}" id="Point05" target="" title="침실3" skinid="ht_node" pan="-190.83"/>
-      <hotspot description="" tilt="-12.18" url="{node14}" id="Point06" target="" title="주방" skinid="ht_node" pan="-14.4"/>
-      <hotspot description="" tilt="-6.1" url="{node13}" id="Point07" target="" title="주방" skinid="ht_node" pan="-93.31"/>
-      <hotspot description="" tilt="-8.82" url="{node1}" id="Point08" target="" title="거실" skinid="ht_node" pan="-331.67"/>
-      <hotspot description="" tilt="-8.72" url="{node2}" id="Point09" target="" title="거실" skinid="ht_node" pan="-269.43"/>
-      <hotspot description="" tilt="-1.93" url="{node6}" id="Point10" target="" title="복도" skinid="ht_node" pan="-360.1"/>
+    <userdata description="1층" nodeid="node5" author="" info="" datetime="" title="복도" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-복도2-20231002-141425|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-3.16" url="{node15}" skinid="ht_node" target="" pan="-220.38" title="침실2" id="Point01"/>
+      <hotspot description="" tilt="-30.55" url="{node4}" skinid="ht_node" target="" pan="-181.6" title="복도" id="Point02"/>
+      <hotspot description="" tilt="-7.89" url="{node17}" skinid="ht_node" target="" pan="-169.89" title="현관" id="Point03"/>
+      <hotspot description="" tilt="4.78" url="{node11}" skinid="ht_node" target="" pan="-180.32" title="욕실1" id="Point04"/>
+      <hotspot description="" tilt="-8.82" url="{node16}" skinid="ht_node" target="" pan="-190.83" title="침실3" id="Point05"/>
+      <hotspot description="" tilt="-12.18" url="{node14}" skinid="ht_node" target="" pan="-14.4" title="주방" id="Point06"/>
+      <hotspot description="" tilt="-6.1" url="{node13}" skinid="ht_node" target="" pan="-93.31" title="주방" id="Point07"/>
+      <hotspot description="" tilt="-8.82" url="{node1}" skinid="ht_node" target="" pan="-331.67" title="거실" id="Point08"/>
+      <hotspot description="" tilt="-8.72" url="{node2}" skinid="ht_node" target="" pan="-269.43" title="거실" id="Point09"/>
+      <hotspot description="" tilt="-1.93" url="{node6}" skinid="ht_node" target="" pan="-360.1" title="복도" id="Point10"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node6">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-3.17923" projection="4" pan="-4.59509" fov="126.58"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-3.17923" pan="-4.59509" fov="126.58" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node6" info="" comment="84RP1" datetime="" title="복도" copyright="" tags="84RP1-기본-복도3-20231002-141448|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-4.77" url="{node2}" id="Point01" target="" title="거실" skinid="ht_node" pan="-225.64"/>
-      <hotspot description="" tilt="-11.82" url="{node1}" id="Point02" target="" title="거실" skinid="ht_node" pan="-263.55"/>
-      <hotspot description="" tilt="-11.2" url="{node14}" id="Point03" target="" title="주방" skinid="ht_node" pan="-126.22"/>
-      <hotspot description="" tilt="-0.83" url="{node13}" id="Point04" target="" title="주방" skinid="ht_node" pan="-140.57"/>
-      <hotspot description="" tilt="-11.5" url="{node5}" id="Point05" target="" title="복도" skinid="ht_node" pan="-180.68"/>
-      <hotspot description="" tilt="-0.65" url="{node8}" id="Point07" target="" title="침실1" skinid="ht_node" pan="-359.01"/>
+    <userdata description="1층" nodeid="node6" author="" info="" datetime="" title="복도" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-복도3-20231002-141448|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-4.77" url="{node2}" skinid="ht_node" target="" pan="-225.64" title="거실" id="Point01"/>
+      <hotspot description="" tilt="-11.82" url="{node1}" skinid="ht_node" target="" pan="-263.55" title="거실" id="Point02"/>
+      <hotspot description="" tilt="-11.2" url="{node14}" skinid="ht_node" target="" pan="-126.22" title="주방" id="Point03"/>
+      <hotspot description="" tilt="-0.83" url="{node13}" skinid="ht_node" target="" pan="-140.57" title="주방" id="Point04"/>
+      <hotspot description="" tilt="-11.5" url="{node5}" skinid="ht_node" target="" pan="-180.68" title="복도" id="Point05"/>
+      <hotspot description="" tilt="-0.65" url="{node8}" skinid="ht_node" target="" pan="-359.01" title="침실1" id="Point07"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node8">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="2.19599" projection="4" pan="17.5682" fov="136.926"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="2.19599" pan="17.5682" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node8" info="" comment="84RP1" datetime="" title="침실1" copyright="" tags="84RP1-기본-안방1-20231002-141505|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-10.52" url="{node7}" id="Point01" target="" title="서재" skinid="ht_node" pan="-85.09"/>
-      <hotspot description="" tilt="-19.17" url="{node6}" id="Point02" target="" title="복도" skinid="ht_node" pan="-179.74"/>
-      <hotspot description="" tilt="-21.71" url="{node9}" id="Point03" target="" title="침실1" skinid="ht_node" pan="-6.49"/>
-      <hotspot description="" tilt="-0.52" url="{node3}" id="Point04" target="" title="드레스룸" skinid="ht_node" pan="-718.97"/>
-      <hotspot description="" tilt="-7.69" url="{node10}" id="Point05" target="" title="침실1" skinid="ht_node" pan="-289.31"/>
+    <userdata description="1층" nodeid="node8" author="" info="" datetime="" title="침실1" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-안방1-20231002-141505|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-10.52" url="{node7}" skinid="ht_node" target="" pan="-85.09" title="서재" id="Point01"/>
+      <hotspot description="" tilt="-19.17" url="{node6}" skinid="ht_node" target="" pan="-179.74" title="복도" id="Point02"/>
+      <hotspot description="" tilt="-21.71" url="{node9}" skinid="ht_node" target="" pan="-6.49" title="침실1" id="Point03"/>
+      <hotspot description="" tilt="-0.52" url="{node3}" skinid="ht_node" target="" pan="-718.97" title="드레스룸" id="Point04"/>
+      <hotspot description="" tilt="-7.69" url="{node10}" skinid="ht_node" target="" pan="-289.31" title="침실1" id="Point05"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node10">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-9.5658" projection="4" pan="-4.12037" fov="126.58"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-9.5658" pan="-4.12037" fov="126.58" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node10" info="" comment="84RP1" datetime="" title="침실1" copyright="" tags="84RP1-기본-안방3-20231002-141510|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="1.08" url="{node7}" id="Point01" target="" title="서재" skinid="ht_node" pan="-11.08"/>
-      <hotspot description="" tilt="-5.79" url="{node6}" id="Point02" target="" title="복도" skinid="ht_node" pan="-23.95"/>
-      <hotspot description="" tilt="-2.69" url="{node3}" id="Point03" target="" title="드레스룸" skinid="ht_node" pan="-335.9"/>
+    <userdata description="1층" nodeid="node10" author="" info="" datetime="" title="침실1" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-안방3-20231002-141510|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="1.08" url="{node7}" skinid="ht_node" target="" pan="-11.08" title="서재" id="Point01"/>
+      <hotspot description="" tilt="-5.79" url="{node6}" skinid="ht_node" target="" pan="-23.95" title="복도" id="Point02"/>
+      <hotspot description="" tilt="-2.69" url="{node3}" skinid="ht_node" target="" pan="-335.9" title="드레스룸" id="Point03"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node9">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-4.77353" projection="4" pan="-1.32353" fov="136.926"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-4.77353" pan="-1.32353" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node9" info="" comment="84RP1" datetime="" title="침실1" copyright="" tags="84RP1-기본-안방2-20231002-141508|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-7.39" url="{node10}" id="Point01" target="" title="침실1" skinid="ht_node" pan="-33.23"/>
-      <hotspot description="" tilt="-3.46" url="{node6}" id="Point02" target="" title="복도" skinid="ht_node" pan="-309.6"/>
-      <hotspot description="" tilt="-2.02" url="{node7}" id="Point03" target="" title="서재" skinid="ht_node" pan="-287.36"/>
-      <hotspot description="" tilt="-19.61" url="{node8}" id="Point04" target="" title="침실1" skinid="ht_node" pan="-299.26"/>
-      <hotspot description="" tilt="-4.63" url="{node3}" id="Point05" target="" title="드레스룸" skinid="ht_node" pan="-158.43"/>
+    <userdata description="1층" nodeid="node9" author="" info="" datetime="" title="침실1" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-안방2-20231002-141508|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-7.39" url="{node10}" skinid="ht_node" target="" pan="-33.23" title="침실1" id="Point01"/>
+      <hotspot description="" tilt="-3.46" url="{node6}" skinid="ht_node" target="" pan="-309.6" title="복도" id="Point02"/>
+      <hotspot description="" tilt="-2.02" url="{node7}" skinid="ht_node" target="" pan="-287.36" title="서재" id="Point03"/>
+      <hotspot description="" tilt="-19.61" url="{node8}" skinid="ht_node" target="" pan="-299.26" title="침실1" id="Point04"/>
+      <hotspot description="" tilt="-4.63" url="{node3}" skinid="ht_node" target="" pan="-158.43" title="드레스룸" id="Point05"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node7">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-2.65195" projection="4" pan="0.967722" fov="136.926"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-2.65195" pan="0.967722" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node7" info="" comment="84RP1" datetime="" title="서재" copyright="" tags="84RP1-기본-서재-20231002-141506|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-2.75" url="{node6}" id="Point01" target="" title="복도" skinid="ht_node" pan="-304.85"/>
-      <hotspot description="" tilt="-16.54" url="{node8}" id="Point02" target="" title="침실1" skinid="ht_node" pan="-324.02"/>
+    <userdata description="1층" nodeid="node7" author="" info="" datetime="" title="서재" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-서재-20231002-141506|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-2.75" url="{node6}" skinid="ht_node" target="" pan="-304.85" title="복도" id="Point01"/>
+      <hotspot description="" tilt="-16.54" url="{node8}" skinid="ht_node" target="" pan="-324.02" title="침실1" id="Point02"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node3">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-13.8297" projection="4" pan="2.09875" fov="148.118"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-13.8297" pan="2.09875" fov="148.118" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node3" info="" comment="84RP1" datetime="" title="드레스룸" copyright="" tags="84RP1-기본-드레스룸-20231002-141512|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-26.45" url="{node9}" id="Point01" target="" title="침실1" skinid="ht_node" pan="-259.97"/>
-      <hotspot description="" tilt="-2.79" url="{node12}" id="Point02" target="" title="욕실2" skinid="ht_node" pan="-175.88"/>
-      <hotspot description="" tilt="2.2" url="{node7}" id="Point03" target="" title="서재" skinid="ht_node" pan="-256.57"/>
+    <userdata description="1층" nodeid="node3" author="" info="" datetime="" title="드레스룸" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-드레스룸-20231002-141512|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-26.45" url="{node9}" skinid="ht_node" target="" pan="-259.97" title="침실1" id="Point01"/>
+      <hotspot description="" tilt="-2.79" url="{node12}" skinid="ht_node" target="" pan="-175.88" title="욕실2" id="Point02"/>
+      <hotspot description="" tilt="2.2" url="{node7}" skinid="ht_node" target="" pan="-256.57" title="서재" id="Point03"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node12">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-4.19487" projection="4" pan="32.0348" fov="160.225"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-4.19487" pan="32.0348" fov="160.225" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node12" info="" comment="84RP1" datetime="" title="욕실2" copyright="" tags="84RP1-기본-욕실2-20231002-141527|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-12.28" url="{node3}" id="Point01" target="" title="드레스룸" skinid="ht_node" pan="-225.87"/>
-      <hotspot description="" tilt="-11.35" url="{node20}" id="Point02" target="" title="욕실2" skinid="ht_node" pan="-133.39"/>
+    <userdata description="1층" nodeid="node12" author="" info="" datetime="" title="욕실2" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-욕실2-20231002-141527|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-12.28" url="{node3}" skinid="ht_node" target="" pan="-225.87" title="드레스룸" id="Point01"/>
+      <hotspot description="" tilt="-11.35" url="{node20}" skinid="ht_node" target="" pan="-133.39" title="욕실2" id="Point02"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node20">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-6.07494" projection="4" pan="12.1246" fov="148.118"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-6.07494" pan="12.1246" fov="148.118" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node20" info="" comment="84RP1" datetime="" title="욕실2" copyright="" tags="84RP1-기본-화장실-20231012-120045|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-1.03" url="{node12}" id="Point01" target="" title="욕실2" skinid="ht_node" pan="-122.25"/>
+    <userdata description="1층" nodeid="node20" author="" info="" datetime="" title="욕실2" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-화장실-20231012-120045|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-1.03" url="{node12}" skinid="ht_node" target="" pan="-122.25" title="욕실2" id="Point01"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node15">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-12.0659" projection="4" pan="5.07895" fov="161.777"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-12.0659" pan="5.07895" fov="161.777" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node15" info="" comment="84RP1" datetime="" title="침실2" copyright="" tags="84RP1-기본-침실2-1-20231002-141334|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-5.13" url="{node18}" id="Point03" target="" title="침실2" skinid="ht_node" pan="-13.1"/>
-      <hotspot description="" tilt="-30.68" url="{node5}" id="Point02" target="" title="복도" skinid="ht_node" pan="-200.11"/>
-      <hotspot description="" tilt="-1.16" url="{node13}" id="Point01" target="" title="주방" skinid="ht_node" pan="-188.01"/>
+    <userdata description="1층" nodeid="node15" author="" info="" datetime="" title="침실2" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-침실2-1-20231002-141334|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-5.13" url="{node18}" skinid="ht_node" target="" pan="-13.1" title="침실2" id="Point03"/>
+      <hotspot description="" tilt="-30.68" url="{node5}" skinid="ht_node" target="" pan="-200.11" title="복도" id="Point02"/>
+      <hotspot description="" tilt="-1.16" url="{node13}" skinid="ht_node" target="" pan="-188.01" title="주방" id="Point01"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node18">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-3.91543" projection="4" pan="-2.3013" fov="137.344"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-3.91543" pan="-2.3013" fov="137.344" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node18" info="" comment="84RP1" datetime="" title="침실2" copyright="" tags="84RP1-기본-침실2-1-20231012-014303|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-6.21" url="{node15}" id="Point01" target="" title="침실2" skinid="ht_node" pan="-325.87"/>
-      <hotspot description="" tilt="-10.27" url="{node5}" id="Point02" target="" title="복도" skinid="ht_node" pan="-341.69"/>
-      <hotspot description="" tilt="4.73" url="{node13}" id="Point03" target="" title="주방" skinid="ht_node" pan="-337.45"/>
+    <userdata description="1층" nodeid="node18" author="" info="" datetime="" title="침실2" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-침실2-1-20231012-014303|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-6.21" url="{node15}" skinid="ht_node" target="" pan="-325.87" title="침실2" id="Point01"/>
+      <hotspot description="" tilt="-10.27" url="{node5}" skinid="ht_node" target="" pan="-341.69" title="복도" id="Point02"/>
+      <hotspot description="" tilt="4.73" url="{node13}" skinid="ht_node" target="" pan="-337.45" title="주방" id="Point03"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node16">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-7.62821" projection="4" pan="4.16504" fov="136.926"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-7.62821" pan="4.16504" fov="136.926" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node16" info="" comment="84RP1" datetime="" title="침실3" copyright="" tags="84RP1-기본-침실3-1-20231002-141404|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-3.25" url="{node17}" id="Point01" target="" title="현관" skinid="ht_node" pan="-185.38"/>
-      <hotspot description="" tilt="-24.56" url="{node11}" id="Point02" target="" title="욕실1" skinid="ht_node" pan="-192.51"/>
-      <hotspot description="" tilt="-24.24" url="{node4}" id="Point03" target="" title="복도" skinid="ht_node" pan="-162.1"/>
-      <hotspot description="" tilt="-5.16" url="{node19}" id="Point04" target="" title="침실3" skinid="ht_node" pan="-334.71"/>
+    <userdata description="1층" nodeid="node16" author="" info="" datetime="" title="침실3" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-침실3-1-20231002-141404|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-3.25" url="{node17}" skinid="ht_node" target="" pan="-185.38" title="현관" id="Point01"/>
+      <hotspot description="" tilt="-24.56" url="{node11}" skinid="ht_node" target="" pan="-192.51" title="욕실1" id="Point02"/>
+      <hotspot description="" tilt="-24.24" url="{node4}" skinid="ht_node" target="" pan="-162.1" title="복도" id="Point03"/>
+      <hotspot description="" tilt="-5.16" url="{node19}" skinid="ht_node" target="" pan="-334.71" title="침실3" id="Point04"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <panorama id="node19">
-    <input height="3000" overlap="1" levelbias="0.400" levelingroll="0" width="3000" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingpitch="0" leveltilesize="510">
-      <level width="3000" height="3000" preload="0" predecode="0"/>
-      <level width="1500" height="1500" preload="0" predecode="0"/>
-      <level width="750" height="750" preload="0" predecode="0"/>
-      <level width="375" height="375" preload="1" predecode="1"/>
+    <input width="3000" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" height="3000" leveltilesize="510" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" overlap="1">
+      <level width="3000" preload="0" height="3000" predecode="0"/>
+      <level width="1500" preload="0" height="1500" predecode="0"/>
+      <level width="750" preload="0" height="750" predecode="0"/>
+      <level width="375" preload="1" height="375" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="2" pannorth="0">
-      <start tilt="-9.61308" projection="4" pan="-60.4359" fov="149.169"/>
-      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
-      <min tilt="-90" fovpixel="2" pan="0"/>
-      <max tilt="90" fovstereographic="330" fovfisheye="360" pan="360" fov="140" scaletofit="1"/>
+      <start tilt="-9.61308" pan="-60.4359" fov="149.169" projection="4"/>
+      <flyin tilt="-90" pan="0" fov="170" projection="9"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max tilt="90" fovstereographic="330" pan="360" fov="140" scaletofit="1" fovfisheye="360"/>
     </view>
-    <userdata description="1층" customnodeid="" author="" source="" heading="0" longitude="" nodeid="node19" info="" comment="84RP1" datetime="" title="침실3" copyright="" tags="84RP1-기본-침실3-2-20231012-014756|bnc" latitude=""/>
-    <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
-      <label height="20" textcolor="0x000000" background="1" wordwrap="1" enabled="1" border="1" borderradius="1" width="180" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" textalpha="1"/>
-      <polystyle bordercolor="0x0000ff" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot description="" tilt="-6.93" url="{node16}" id="Point01" target="" title="침실3" skinid="ht_node" pan="-13.41"/>
-      <hotspot description="" tilt="4.08" url="{node17}" id="Point02" target="" title="현관" skinid="ht_node" pan="-37.58"/>
-      <hotspot description="" tilt="-12.94" url="{node4}" id="Point03" target="" title="복도" skinid="ht_node" pan="-27.82"/>
+    <userdata description="1층" nodeid="node19" author="" info="" datetime="" title="침실3" heading="0" longitude="" source="" copyright="" comment="84RP1" tags="84RP1-기본-침실3-2-20231012-014756|bnc" latitude="" customnodeid=""/>
+    <hotspots width="180" wordwrap="1" height="20" smoothmovement="0">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" width="180" backgroundalpha="1" borderradius="1" wordwrap="1" borderalpha="1" background="1" bordercolor="0x000000" height="20" textalpha="1" border="1" enabled="1"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot description="" tilt="-6.93" url="{node16}" skinid="ht_node" target="" pan="-13.41" title="침실3" id="Point01"/>
+      <hotspot description="" tilt="4.08" url="{node17}" skinid="ht_node" target="" pan="-37.58" title="현관" id="Point02"/>
+      <hotspot description="" tilt="-12.94" url="{node4}" skinid="ht_node" target="" pan="-27.82" title="복도" id="Point03"/>
     </hotspots>
     <media>
-      <sound field="90.000" ambientlevel="0.000" tiltsize="10.000" startmutedmobile="0" tilt="-1.000" level="1.000" id="_background" mode="0" nodechangekeep="1" loop="1" pansize="10.000" pan="-1.000">
+      <sound mode="0" startmutedmobile="0" pan="-1.000" level="1.000" nodechangekeep="1" ambientlevel="0.000" pansize="10.000" tilt="-1.000" loop="1" field="90.000" tiltsize="10.000" id="_background">
         <source url="media/SellBuyMusic -  .mp3"/>
       </sound>
     </media>
-    <transition zoomafteroutfov="40" zoomoutpause="1" enabled="1" zoomin="0" delay="none" zoomspeed="2" softedge="0" type="crossdissolve" zoomfov="40" blendtime="1" blendcolor="0x000000" zoomafterinfov="140" zoomout="0"/>
-    <autorotate enabled="1" nodedelay="0.00" delay="5.00" noderandom="1" useanimation="0" nodefilter="" startloaded="0" speed="0.050" horizonfromdefview="0" returntohorizon="0.000"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0" clipsrandom="0"/>
-    <control speedwheel="1" simulatemass="1" sensitivity="8" zoomcentercursor="1" contextfullscreen="1" contextvr="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" contextprojections="0" lockedmouse="0" dblclickfullscreen="0" hideabout="0" invertcontrol="1" rubberband="0" lockedkeyboard="0"/>
+    <transition zoomin="0" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" zoomoutpause="1" zoomspeed="2" zoomfov="40" blendtime="1" delay="none" enabled="1"/>
+    <autorotate useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" delay="5.00" nodefilter="" noderandom="1" nodedelay="0.00" enabled="1" speed="0.050"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0"/>
+    <control contextprojections="0" lockedkeyboard="0" simulatemass="1" contextfullscreen="1" speedwheel="1" zoomcentercursor="1" lockedmouse="0" invertwheel="0" rubberband="0" hideabout="0" invertcontrol="1" contextvr="1" lockedwheel="0" dblclickfullscreen="0" lockedkeyboardzoom="0" sensitivity="8"/>
   </panorama>
   <masternode>
-    <userdata description="" comment="" title="" copyright="" author="" tags=""/>
+    <userdata description="" author="" copyright="" comment="" title="" tags=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
